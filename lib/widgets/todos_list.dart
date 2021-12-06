@@ -73,7 +73,7 @@ class TodosList extends StatelessWidget {
                                   color: Colors.green,
                                 ),
                           IconButton(
-                            onPressed: () => deleteTODO(index),
+                            onPressed: () => deleteTODO(context, index),
                             icon: const Icon(Icons.delete),
                             color: ThemeData().errorColor,
                           ),
