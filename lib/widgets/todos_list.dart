@@ -72,6 +72,7 @@ class TodosList extends StatelessWidget {
                                       const Icon(Icons.check_box_outline_blank),
                                   color: Colors.green,
                                 ),
+                          const SizedBox(width: 10.0),
                           IconButton(
                             onPressed: () => deleteTODO(context, index),
                             icon: const Icon(Icons.delete),

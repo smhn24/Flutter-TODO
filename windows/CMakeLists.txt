@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.15)
 project(todo_list LANGUAGES CXX)
 
-set(BINARY_NAME "todo_list")
+set(BINARY_NAME "TODOapp")
 
 cmake_policy(SET CMP0063 NEW)
 
